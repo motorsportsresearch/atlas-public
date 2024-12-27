@@ -71,7 +71,7 @@
             <h2 class="project-tagline">{{ page-tagline }}</h2>
             {% if page.layout == 'home' and site.github.is_project_page %}
             <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-            {% if site.show_downloads %}
+            {% if site.show_downloads == 'true' %}
             <a href="{{ site.github.winexe_url }}" class="btn">Download for Windows (.exe)</a>
             <a href="{{ site.github.macpkg_url }}" class="btn">Download for MacOS (.pkg)</a>
             <a href="{{ site.github.linux_url }}" class="btn">Download for Linux (.AppImage)</a>
