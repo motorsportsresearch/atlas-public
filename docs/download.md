@@ -6,14 +6,18 @@ permalink: /download.html
 ref: download
 ---
 
+## Atlas
+
 Use the following links to download the latest edition of the Atlas software package.
 
-[Windows (x86)](https://github.com/motorsportsresearch/atlas-public/releases/latest/download/Atlas_Windows_x64.exe)
+<a href="{{ site.github.winexe_url }}" class="btn">Download for Windows (.exe)</a>
 
-[MacOS X](https://github.com/motorsportsresearch/atlas-public/releases/latest/download/Atlas_MacOS.pkg)
+<a href="{{ site.github.macpkg_url }}" class="btn">Download for MacOS (.pkg)</a>
 
-[Linux (AppImage)](https://github.com/motorsportsresearch/atlas-public/releases/latest/download/Atlas_Linux.AppImage)
-
-[USDM VB WRX Definitions](https://github.com/motorsportsresearch/atlas-public/releases/download/2024.12.b6-RC/Definitions-USDM_VB_MT.atlas)
+<a href="{{ site.github.linux_url }}" class="btn">Download for Linux (.AppImage)</a>
 
 [Other](https://github.com/motorsportsresearch/atlas-public/releases/latest/)
+
+## Definitions
+
+[USDM VB WRX Definitions](https://github.com/motorsportsresearch/atlas-public/releases/download/2024.12.b6-RC/Definitions-USDM_VB_MT.atlas)
