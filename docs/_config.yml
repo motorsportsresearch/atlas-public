@@ -34,7 +34,7 @@ plugins:
   - jekyll-seo-tag
 target-blank:
     rel: nofollow
-header_page_refs: ['news', 'support', 'docs', 'faq', 'emissions', 'discord']
+header_page_refs: ['news', 'support', 'download', 'docs', 'faq', 'emissions', 'discord']
 defaults:
   - scope:
       path: ""
