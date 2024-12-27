@@ -8,7 +8,7 @@ order: 2
 ---
 
 ### Where can I download Atlas?
-* Atlas is in open beta and can be [downloaded]({{ '[/download.html' | absolute_url }}) from our website!
+* Atlas is in open beta and can be [downloaded]({{ '/download.html' | absolute_url }}) from our website!
 
 ### How can I get involved?
 * NAMR has a thriving [Discord community](https://discord.gg/{{ site.socials.discord }}). Join the fun today!
