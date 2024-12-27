@@ -16,8 +16,8 @@ Use the following links to download the latest edition of the Atlas software pac
 
 <a href="{{ site.github.linux_url }}" class="btn">Download for Linux (.AppImage)</a>
 
-[Other](https://github.com/motorsportsresearch/atlas-public/releases/latest/)
+<a href="{{ site.github.other_url }}" class="btn">Download (Other Platforms)</a>
 
 ## Definitions
 
-[USDM VB WRX Definitions](https://github.com/motorsportsresearch/atlas-public/releases/download/2024.12.b6-RC/Definitions-USDM_VB_MT.atlas)
+<a href="{{ site.github.vb_defs_url }}" class="btn">Definitions (USDM VB WRX)</a>
