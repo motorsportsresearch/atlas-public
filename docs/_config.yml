@@ -1,16 +1,15 @@
 title: North American Motorsports Research
 short_title: NAMR
 description: Pioneering free and open performance tuning for modern vehicles.
-show_downloads: false
-show_ots: false
+show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
 github:
   is_project_page: false
-  winexe_url: https://github.com/atlas-tuning/atlas-public/releases/latest/download/Atlas_Windows_x64.exe
-  macpkg_url: https://github.com/atlas-tuning/atlas-public/releases/latest/download/Atlas_MacOS.pkg
-  linux_url: https://github.com/atlas-tuning/atlas-public/releases/latest/download/Atlas_Linux.AppImage
-  other_url: https://github.com/atlas-tuning/atlas-public/releases/latest
+  winexe_url: https://github.com/motorsportsresearch/atlas-public/releases/latest/download/Atlas_Windows_x64.exe
+  macpkg_url: https://github.com/motorsportsresearch/atlas-public/releases/latest/download/Atlas_MacOS.pkg
+  linux_url: https://github.com/motorsportsresearch/atlas-public/releases/latest/download/Atlas_Linux.AppImage
+  other_url: https://github.com/motorsportsresearch/atlas-public/releases/latest
 
 url: "https://motorsportsresearch.org" 
 # cayman-blog date format
