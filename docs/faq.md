@@ -8,7 +8,7 @@ order: 2
 ---
 
 ### Where can I download Atlas?
-* Atlas can be [downloaded]({{ '[/download.html' | absolute_url }}) from our website as we are in open beta!
+* Atlas is in open beta and can be [downloaded]({{ '[/download.html' | absolute_url }}) from our website!
 
 ### How can I get involved?
 * NAMR has a thriving [Discord community](https://discord.gg/{{ site.socials.discord }}). Join the fun today!
@@ -20,7 +20,7 @@ order: 2
 * Atlas is a Java based, multiplatform application, currently being developed for Microsoft Windows, Apple Mac OS X and various flavors of Linux including SteamOS, Arch and Debian. 
 
 ### When will Atlas be available?
-* Atlas is currently in a [limited Beta]({{ '/2024/08/30/limited-beta.html' | absolute_url }}). Rigorous testing accompanied with thorough pre-release documentation needs to be completed before we can publish a general release. That said, we feel that early to mid Autumn 2024 is a realistic goal. 
+* Atlas is currently in a [open Beta]({{ '/2024/12/27/open-beta.html' | absolute_url }}). Rigorous testing accompanied with thorough pre-release documentation needs to be completed before we can publish a general release.
 
 ### Does Atlas support the VA WRX or STI? (2015-2021)
 * Yes! Although Atlas originally began as a tool intended to support the VB (2022+) chassis WRX, it’s scope has recently expanded and development is currently in progress for the FA20 powered VA chassis (2015-2021) WRX. More information can be found on our [support page]({{ '/support.html' | absolute_url }}). 
