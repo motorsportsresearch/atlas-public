@@ -30,6 +30,11 @@ Released <time datetime="{{ release.published_at | date_to_xmlschema }}">{{ rele
 ([compare changes to previous release]({{ site.github.repository_url }}/compare/{{ releases[forloop.index].tag_name }}...{{ release.tag_name }}#files_bucket "Compare changes between release versions {{ releases[forloop.index].tag_name }} and {{ release.tag_name }}"))
 {%- endunless %}
 
+## [{{ release.name }}]({{ release.html_url }}) {% if release.prerelease -%}(pre-release){%- endif %}
+<a href="{{ release.assets[2].browser_download_url }}/" class="btn">Windows (.exe)</a>
+<a href="{{ release.assets[1].browser_download_url }}/" class="btn">MacOS (.pkg)</a>
+<a href="{{ release.assets[0].browser_download_url }}/" class="btn">Linux (.AppImage)</a>
+
 {{ release.body }}
 
 {% endfor %}
