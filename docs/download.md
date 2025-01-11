@@ -18,14 +18,15 @@ Released <time datetime="{{ release.published_at | date_to_xmlschema }}">{{ rele
 {% unless release.tag_name == "v0.0.1" -%}
 ([compare changes to previous release]({{ site.github.repository_url }}/compare/{{ releases[forloop.index].tag_name }}...{{ release.tag_name }}#files_bucket "Compare changes between release versions {{ releases[forloop.index].tag_name }} and {{ release.tag_name }}"))
 {%- endunless %}
+
+{{ release.body }}
+
 ## Software
 <a href="{{ release.assets[2].browser_download_url }}/" class="btn">Windows (.exe)</a>
 <a href="{{ release.assets[1].browser_download_url }}/" class="btn">MacOS (.pkg)</a>
 <a href="{{ release.assets[0].browser_download_url }}/" class="btn">Linux (.AppImage)</a>
 ## Definitions
 <a href="{{ release.assets[0].browser_download_url }}/" class="btn">USDM VB WRX</a>
-
-{{ release.body }}
 
 {% endfor %}
 
