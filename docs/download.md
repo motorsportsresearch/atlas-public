@@ -37,6 +37,8 @@ Released <time datetime="{{ release.published_at | date_to_xmlschema }}">{{ rele
 
 {% endfor %}
 
+{% endfor %}
+
 Looking for [older versions and releases?]({{ '/releases.html' | absolute_url }})
 
 
