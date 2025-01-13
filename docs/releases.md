@@ -16,15 +16,15 @@ Released <time datetime="{{ release.published_at | date_to_xmlschema }}">{{ rele
 {{ release.body }}
 ### Downloads
 {% for asset in release.assets %}
-  {% if asset.name == "Atlas_Windows_x64.exe" %}
-<a href="{{ asset.browser_download_url }}" class="btn">Windows (.exe)</a>
-  {% endif %}
-  {% if asset.name == "Atlas_MacOS.pkg" %}
-<a href="{{ asset.browser_download_url }}" class="btn">MacOS (.pkg)</a>
-  {% endif %}
-  {% if asset.name == "Atlas_Linux.AppImage" %}
+{% if asset.name == "Atlas_Linux.AppImage" %}
 <a href="{{ asset.browser_download_url }}" class="btn">Linux (.AppImage)</a>
-  {% endif %}
+{% endif %}
+{% if asset.name == "Atlas_MacOS.pkg" %}
+<a href="{{ asset.browser_download_url }}" class="btn">MacOS (.pkg)</a>
+{% endif %}
+{% if asset.name == "Atlas_Windows_x64.exe" %}
+<a href="{{ asset.browser_download_url }}" class="btn">Windows (.exe)</a>
+{% endif %}
 {% endfor %}
 ### Definitions
 {% for asset in release.assets %}
