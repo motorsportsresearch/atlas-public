@@ -26,6 +26,8 @@ A more detailed breakdown of supported vehicles by transmission type and domesti
 
 Atlas supports the following adapters and hardware through custom cross-platform device drivers that are built directly into Atlas. The listed adapters should work out of the box with no additional configuration required.
 
+Our favorite adapter to use with Atlas for the best performance and reliability is the **Tactrix OpenPort 2.0**.
+
 | Device               | Connection | Datalogging      | Flashing |
 |----------------------|------------|------------------|----------|
 | [Tactrix OpenPort 2.0](https://www.tactrix.com/index.php?page=shop.product_details&flypage=flypage.tpl&product_id=17&category_id=6&option=com_virtuemart&Itemid=53&redirected=1&Itemid=53) | Wired<br>(USB-Mini B) | ![Supported](https://flat.badgen.net/badge/icon/Supported?label&color=green)<br>120Hz | ![Supported](https://flat.badgen.net/badge/icon/Supported?label&color=green)<br>(3-5 Minutes) |
