@@ -26,14 +26,12 @@ A more detailed breakdown of supported vehicles by transmission type and domesti
 
 Atlas supports the following adapters and hardware through custom cross-platform device drivers that are built directly into Atlas. The listed adapters should work out of the box with no additional configuration required.
 
-| Device               | Connection | Flash Speed<br>(Average) | Status           |
-|----------------------|------------|--------------------------|------------------|
-| [Tactrix OpenPort 2.0](https://www.tactrix.com/index.php?page=shop.product_details&flypage=flypage.tpl&product_id=17&category_id=6&option=com_virtuemart&Itemid=53&redirected=1&Itemid=53) | Wired<br>(USB-Mini B) | 3~5 minutes | ![Supported](https://flat.badgen.net/badge/icon/Supported?label&color=green) |
-| [OBDLink MX+](https://www.obdlink.com/products/obdlink-mxp/) | Wireless<br>(Bluetooth 3.0) | 15~16 minutes | ![Supported](https://flat.badgen.net/badge/icon/Supported?label&color=green) |
-| [OBDLink LX](https://www.obdlink.com/products/obdlink-lx/) | Wireless<br>(Bluetooth 3.0) | 15~16 minutes | ![Supported](https://flat.badgen.net/badge/icon/Supported?label&color=green) |
-| [OBDLink EX](https://www.obdlink.com/products/obdlink-ex/) | Wired<br>(USB-A) | 15~16 minutes | ![Supported](https://flat.badgen.net/badge/icon/Supported?label&color=green) |
-| [OBDLink SX](https://www.obdlink.com/products/obdlink-sx/) | Wired<br>(USB-A) | 15~16 minutes | ![Supported](https://flat.badgen.net/badge/icon/Supported?label&color=green) |
-| [Veepeak OBDCheck BLE+](https://www.amazon.com/dp/B076XVQMVS) | Wireless<br>(Bluetooth LE) | 30~60 minutes | ![Supported](https://flat.badgen.net/badge/icon/Supported?label&color=green) |
+| Device               | Connection | Datalogging      | Flashing |
+|----------------------|------------|------------------|----------|
+| [Tactrix OpenPort 2.0](https://www.tactrix.com/index.php?page=shop.product_details&flypage=flypage.tpl&product_id=17&category_id=6&option=com_virtuemart&Itemid=53&redirected=1&Itemid=53) | Wired<br>(USB-Mini B) | ![Supported](https://flat.badgen.net/badge/icon/Supported?label&color=green)<br>120Hz | ![Supported](https://flat.badgen.net/badge/icon/Supported?label&color=green)<br>(3-5 Minutes) |
+| [OBDLink EX](https://www.obdlink.com/products/obdlink-ex/) | Wired<br>(USB-A) | ![Supported](https://flat.badgen.net/badge/icon/Supported?label&color=green)<br>60Hz | ![Supported](https://flat.badgen.net/badge/icon/Supported?label&color=green)<br>(15-30 Minutes) |
+| [OBDLink MX+](https://www.obdlink.com/products/obdlink-mxp/) | Wireless<br>(Bluetooth 3.0) | ![Supported](https://flat.badgen.net/badge/icon/Supported?label&color=green)<br>30Hz | ![Not Recommended](https://flat.badgen.net/badge/icon/Not%20Recommended?label&color=orange) |
+| [Veepeak OBDCheck BLE+](https://www.amazon.com/dp/B076XVQMVS) | Wireless<br>(Bluetooth LE) |  ![Supported](https://flat.badgen.net/badge/icon/Supported?label&color=green)<br>20Hz | ![Not Recommended](https://flat.badgen.net/badge/icon/Not%20Recommended?label&color=orange) |
 
 More detailed support information such as operating system compatibility, adapter chipset and connection notes can be found on the [adapter support documentation page]({{ site.links.atlasdocs }}/page/supported-adapters).
 
