@@ -36,6 +36,7 @@ Released <time datetime="{{ release.published_at | date_to_xmlschema }}">{{ rele
 
 {% endfor %}
 
+### Changes
 {{ release.body }}
 
 {% endfor %}
