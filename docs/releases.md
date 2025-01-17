@@ -6,14 +6,12 @@ permalink: /releases.html
 ref: releases
 ---
 
-{%- assign releases = site.github.releases | where: "draft", false | sort: "tag_name" | reverse -%}
+{%- assign releases = site.github.releases | where: "draft", false | sort: "tag_name" | reversed -%}
 
-{% for release in releases reversed %}
+{% for release in releases %}
 
 ## [Atlas {{ release.name }}]({{ release.html_url }}) {% if release.prerelease -%}(pre-release){%- endif %}
 Released <time datetime="{{ release.published_at | date_to_xmlschema }}">{{ release.published_at | date_to_string }}</time>
-
-{{ release.body }}
 
 ### Downloads
 {% for asset in release.assets %}
@@ -37,6 +35,8 @@ Released <time datetime="{{ release.published_at | date_to_xmlschema }}">{{ rele
   {% endif %}
   
 {% endfor %}
+
+{{ release.body }}
 
 {% endfor %}
 
