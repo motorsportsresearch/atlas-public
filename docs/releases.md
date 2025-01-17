@@ -8,7 +8,7 @@ ref: releases
 
 {%- assign releases = site.github.releases | where: "draft", false | sort: "tag_name" | reverse -%}
 
-{% for release in releases %}
+{% for release in releases reversed %}
 
 ## [Atlas {{ release.name }}]({{ release.html_url }}) {% if release.prerelease -%}(pre-release){%- endif %}
 Released <time datetime="{{ release.published_at | date_to_xmlschema }}">{{ release.published_at | date_to_string }}</time>
