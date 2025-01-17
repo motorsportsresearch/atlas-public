@@ -13,17 +13,7 @@ ref: releases
 ## [Atlas {{ release.name }}]({{ release.html_url }}) {% if release.prerelease -%}(pre-release){%- endif %}
 Released <time datetime="{{ release.published_at | date_to_xmlschema }}">{{ release.published_at | date_to_string }}</time>
 ### Downloads
-{% for asset in release.assets %}
-{% if asset.name == "Atlas_Linux.AppImage" %}
-<a href="{{ asset.browser_download_url }}" class="btn">Linux (.AppImage)</a>
-{% endif %}
-{% if asset.name == "Atlas_MacOS.pkg" %}
-<a href="{{ asset.browser_download_url }}" class="btn">MacOS (.pkg)</a>
-{% endif %}
-{% if asset.name == "Atlas_Windows_x64.exe" %}
-<a href="{{ asset.browser_download_url }}" class="btn">Windows (.exe)</a>
-{% endif %}
-{% endfor %}
+{% for asset in release.assets %} {% if asset.name == "Atlas_Linux.AppImage" %} <a href="{{ asset.browser_download_url }}" class="btn">Linux (.AppImage)</a> {% endif %} {% if asset.name == "Atlas_MacOS.pkg" %} <a href="{{ asset.browser_download_url }}" class="btn">MacOS (.pkg)</a> {% endif %} {% if asset.name == "Atlas_Windows_x64.exe" %} <a href="{{ asset.browser_download_url }}" class="btn">Windows (.exe)</a> {% endif %} {% endfor %}
 ### Definitions
 {% for asset in release.assets %}
   {% if asset.name == "Definitions-USDM_VA_MT.atlas" %}
