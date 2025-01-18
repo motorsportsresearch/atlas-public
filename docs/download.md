@@ -28,7 +28,7 @@ Released <time datetime="{{ release.published_at | date_to_xmlschema }}">{{ rele
 
 {% endfor %}
 
-## Previous Versions
+## [Previous Versions]({{ '/releases.html' | absolute_url }})
 Looking for [older versions and releases?]({{ '/releases.html' | absolute_url }})
 
 
