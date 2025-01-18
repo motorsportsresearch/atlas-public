@@ -23,7 +23,7 @@ Released <time datetime="{{ release.published_at | date_to_xmlschema }}">{{ rele
 <a href="{{ asset.browser_download_url }}" class="btn">USDM VB WRX</a>
 {% endif %}
 {% endfor %}
-### Changes
+### Release Notes
 {{ release.body }}
 
 {% endfor %}
