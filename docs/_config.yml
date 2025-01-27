@@ -6,11 +6,6 @@ google_analytics:
 theme: jekyll-theme-cayman
 github:
   is_project_page: false
-  winexe_url: https://github.com/motorsportsresearch/atlas-public/releases/latest/download/Atlas_Windows_x64.exe
-  macpkg_url: https://github.com/motorsportsresearch/atlas-public/releases/latest/download/Atlas_MacOS.pkg
-  linux_url: https://github.com/motorsportsresearch/atlas-public/releases/latest/download/Atlas_Linux.AppImage
-  other_url: https://github.com/motorsportsresearch/atlas-public/releases/latest
-  vb_defs_url: https://github.com/motorsportsresearch/atlas-public/releases/latest/download/Definitions-USDM_VB_MT.atlas 
 
 url: "https://motorsportsresearch.org" 
 # cayman-blog date format
