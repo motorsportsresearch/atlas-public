@@ -35,6 +35,8 @@ plugins:
   - jekyll-seo-tag
 target-blank:
     rel: nofollow
+    noopener: true
+    noreferrer: true
 header_page_refs: ['news', 'support', 'download', 'docs', 'faq', 'emissions', 'discord']
 defaults:
   - scope:
