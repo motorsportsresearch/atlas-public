@@ -9,7 +9,7 @@ order: 1
 
 ## Supported Vehicles
 
-If a vehicle is supported, it may not be complete. Please report any missing tables or desired exposed tables to our GitHub project as a new [issue](https://github.com/atlas-tuning/atlas-public/issue). 
+If a vehicle is supported, it may not be complete. Please report any missing tables or desired exposed tables to our GitHub project as a new [issue](https://github.com/motorsportsresearch/atlas-public/issue). 
 
 | Make   | Model<br>(Chassis) | Year      | Status |
 |--------|--------------------|-----------|--------|
@@ -37,8 +37,8 @@ Our favorite adapter to use with Atlas for the best performance and reliability 
 
 More detailed support information such as operating system compatibility, adapter chipset and connection notes can be found on the [adapter support documentation page]({{ site.links.atlasdocs }}/page/supported-adapters).
 
-NAMR is always interested in expanding support to new adapters and hardware. If you have a device you'd like to see supported and isn't listed here, please check our current [hardware requests](https://github.com/atlas-tuning/atlas-public/labels/hardware%20request) on GitHub and see if a ticket already exists for the device in question. If one doesn't exist yet, consider opening a new [adapter or hardware request](https://github.com/atlas-tuning/atlas-public/issues/new?labels=hardware%20request&template=adapter_request.md&title=).
+NAMR is always interested in expanding support to new adapters and hardware. If you have a device you'd like to see supported and isn't listed here, please check our current [hardware requests](https://github.com/motorsportsresearch/atlas-public/labels/hardware%20request) on GitHub and see if a ticket already exists for the device in question. If one doesn't exist yet, consider opening a new [adapter or hardware request](https://github.com/motorsportsresearch/atlas-public/issues/new?labels=hardware%20request&template=adapter_request.md&title=).
 
 ## Issues/Troubleshooting
 
-Atlas is a relatively new software project, and while we strive to provide an easy to use and trouble-free product, errors may still arise. In this event, users are urged to check our currently [known issues](https://github.com/atlas-tuning/atlas-public/labels/bug). If this is a new issue, please [open a support ticket](https://github.com/atlas-tuning/atlas-public/issues/new?labels=bug&template=bug_report.md) on our GitHub or drop by the [NAMR Atlas Community on Discord](https://discord.gg/{{ site.socials.discord }}).
+Atlas is a relatively new software project, and while we strive to provide an easy to use and trouble-free product, errors may still arise. In this event, users are urged to check our currently [known issues](https://github.com/motorsportsresearch/atlas-public/labels/bug). If this is a new issue, please [open a support ticket](https://github.com/motorsportsresearch/atlas-public/issues/new?labels=bug&template=bug_report.md) on our GitHub or drop by the [NAMR Atlas Community on Discord](https://discord.gg/{{ site.socials.discord }}).
