@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
 
   s.platform      = Gem::Platform::RUBY
   s.add_runtime_dependency "jekyll", '~> 3.8', '>= 3.8.6'
-  s.add_runtime_dependency "jekyll-target-blank", '>= 0'
+  s.add_runtime_dependency 'jekyll-target-blank', '>= 0'
   s.add_runtime_dependency 'jekyll-feed', '>= 0'
   s.add_runtime_dependency 'jekyll-seo-tag', '~> 2.0'
   s.add_development_dependency 'html-proofer', '~> 3.0'
