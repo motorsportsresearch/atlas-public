@@ -9,7 +9,7 @@ order: 1
 
 ## Supported Vehicles
 
-If a vehicle is supported, it may not be complete. Please report any missing tables or desired exposed tables to our GitHub project as a new [issue](https://github.com/motorsportsresearch/atlas-public/issue). 
+If a vehicle is supported, it may not be complete. Please report any missing tables or desired exposed tables to our GitHub project as a new [issue](https://github.com/motorsportsresearch/atlas-public/issues). 
 
 | Make   | Model<br>(Chassis) | Year      | Status |
 |--------|--------------------|-----------|--------|
