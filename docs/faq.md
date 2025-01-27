@@ -32,7 +32,7 @@ order: 2
 * ELM327 based devices with firmware version 2.1 or greater are supported in Atlas with a built-in driver. Flashing via this method takes significantly longer than others. (30-60 minutes as opposed to 3-5 minutes via a Tactrix OpenPort 2.0)
 
 ### Can I download and modify my OTS or ProTune?
-* Atlas does not and will not support any ECU calibration (tune) loaded via a Cobb AccessPort. If you want to use Atlas on a vehicle paired to an AccessPort, you’ll need to unpair the AccessPort and revert to your stock calibration in order to begin using Atlas.
+* Atlas does not and will not support any ECU calibration (tune) loaded via a Cobb AccessPort or other third-party accessory. If you want to use Atlas on a vehicle paired to an AccessPort, you’ll need to unpair the AccessPort and revert to your stock calibration in order to begin using Atlas.
 
 ### Can I use my existing AccessPort with Atlas?
 * Due to the security features implemented on the device, a Cobb AccessPort cannot be used in conjunction with Atlas to flash new calibrations, change maps, view gauges or datalog.
