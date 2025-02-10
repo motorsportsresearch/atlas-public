@@ -3,7 +3,7 @@ layout: post
 title: "STN and ELM327 Support!"
 ---
 
-When this project started, Atlas was originally designed to use J2534 devices (such as the Tactrix OpenPort 2.0 or Denso DST-i) though a custom driver baked directly into the program. While the Tactrix is an amazing device and will work the best with Atlas, we realize that stock fluctuations and price may make the devices inaccessible for some users.
+When this project started, Atlas was originally designed to use J2534 devices (such as the Tactrix OpenPort 2.0) though a custom driver baked directly into the program. While the Tactrix is an amazing device and will work the best with Atlas, we realize that stock fluctuations and price may make the devices inaccessible for some users.
 
 We're now very happy to announce support for certain OBDLink devices with STN chipsets and ELM327 based diagnostic adapters with firmware version 2.1 or higher!
 
