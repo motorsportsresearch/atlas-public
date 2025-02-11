@@ -1,5 +1,5 @@
 ---
-redirect: https://docs.motorsportsresearch.org/
+redirect: {{ site.links.atlasdocs }}
 layout: redirect
 title: Docs
 ref: docs
