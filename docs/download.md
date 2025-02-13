@@ -6,7 +6,7 @@ permalink: /download.html
 ref: download
 ---
 
-{%- assign releases = site.github.releases | where: "draft", false | sort: "published_at" | reversed -%}
+{%- assign releases = site.github.releases | where: "draft", false | sort: "published_at" -%}
 
 {% for release in releases limit:1 %}
 
