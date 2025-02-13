@@ -18,7 +18,7 @@ Released <time datetime="{{ release.published_at | date_to_xmlschema }}">{{ rele
 {% if asset.name == "Definitions-USDM_VB_MT.atlas" %} <a href="{{ asset.browser_download_url }}" class="btn">USDM VB WRX</a> {% endif %} {% endfor %}
 ### Release Notes
 {{ release.body }}
----
+<hr>
 
 {% endfor %}
 
