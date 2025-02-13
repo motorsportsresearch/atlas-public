@@ -29,4 +29,3 @@ Unsupported badges:
 ![Unsupported](https://badgen.net/badge/icon/Unsupported?icon=terminal&label=Linux/SteamOS&color=red)
 ![Unsupported](https://badgen.net/badge/icon/Unsupported?icon=googleplay&label=Android&color=red)
 ![Unsupported](https://badgen.net/badge/icon/Unsupported?icon=apple&label=iOS&color=red)
-
