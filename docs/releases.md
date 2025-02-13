@@ -22,4 +22,4 @@ Released <time datetime="{{ release.published_at | date_to_xmlschema }}">{{ rele
 
 {% endfor %}
 
-
+The software available on this page is provided for archival and troubleshooting purposes only. Users are strongly encouraged to use the latest version of the software whenever possible to ensure optimal performance and security.
