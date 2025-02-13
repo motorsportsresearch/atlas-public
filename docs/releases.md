@@ -6,7 +6,7 @@ permalink: /releases.html
 ref: releases
 ---
 
-{%- assign releases = site.github.releases | where: "draft", false | sort: "created_at" | reversed -%}
+{%- assign releases = site.github.releases | where: "draft", false | sort: "created_at" | reverse -%}
 {% for release in releases %}
 
 ## Atlas {{ release.name }} {% if release.prerelease -%}(pre-release){%- endif %}
