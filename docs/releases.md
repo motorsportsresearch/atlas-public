@@ -6,7 +6,7 @@ permalink: /releases.html
 ref: releases
 ---
 
-{%- assign releases = site.github.releases | where: "draft", false | sort: "published_at" -%}
+{%- assign releases = site.github.releases | where: "draft", false | sort: "published_at" | reversed -%}
 
 {% for release in releases %}
 
