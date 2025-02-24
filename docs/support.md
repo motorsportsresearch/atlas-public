@@ -31,7 +31,7 @@ For the best performance and reliability we reccomend the **Tactrix OpenPort 2.0
 | Device               | Connection | Datalogging      | Flashing |
 |----------------------|------------|------------------|----------|
 | [Tactrix OpenPort 2.0](https://www.tactrix.com/index.php?page=shop.product_details&flypage=flypage.tpl&product_id=17&category_id=6&option=com_virtuemart&Itemid=53&redirected=1&Itemid=53) | Wired<br>(USB-Mini B) | ![Supported](https://flat.badgen.net/badge/icon/Supported?label&color=green)<br>120Hz | ![Supported](https://flat.badgen.net/badge/icon/Supported?label&color=green)<br>(3-5 Minutes) |
-| [OBDLink EX](https://www.obdlink.com/products/obdlink-ex/) | Wired<br>(USB-A) | ![Supported](https://flat.badgen.net/badge/icon/Supported?label&color=green)<br>60Hz | ![Not Recommended](https://flat.badgen.net/badge/icon/Not%20Recommended?label&color=orange) |
+| [OBDLink EX](https://www.obdlink.com/products/obdlink-ex/) | Wired<br>(USB-A) | ![Supported](https://flat.badgen.net/badge/icon/Supported?label&color=green)<br>60Hz | ![Supported](https://flat.badgen.net/badge/icon/Supported?label&color=green)<br>(5-15 Minutes) |
 | [OBDLink MX+](https://www.obdlink.com/products/obdlink-mxp/) | Wireless<br>(Bluetooth 3.0) | ![Supported](https://flat.badgen.net/badge/icon/Supported?label&color=green)<br>30Hz | ![Not Recommended](https://flat.badgen.net/badge/icon/Not%20Recommended?label&color=orange) |
 | [Veepeak OBDCheck BLE+](https://www.amazon.com/dp/B076XVQMVS) | Wireless<br>(Bluetooth LE) |  ![Supported](https://flat.badgen.net/badge/icon/Supported?label&color=green)<br>20Hz | ![Not Recommended](https://flat.badgen.net/badge/icon/Not%20Recommended?label&color=orange) |
 
