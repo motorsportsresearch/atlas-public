@@ -58,4 +58,4 @@ North American Motorsports Research does not and will not condone, support, or f
 
 For more detailed information regarding our position on emissions and tuning, please review our [emissions statement](https://motorsportsresearch.org/emissions).
 
-[![Build Nightly Release](https://github.com/atlas-tuning/atlas/actions/workflows/nightlybuild.yml/badge.svg?branch=main)](https://github.com/atlas-tuning/atlas/actions/workflows/nightlybuild.yml)
+[![Build Nightly Release](https://github.com/motorsportsresearch/atlas/actions/workflows/nightlybuild.yml/badge.svg?branch=main)](https://github.com/motorsportsresearch/atlas/actions/workflows/nightlybuild.yml)
