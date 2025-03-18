@@ -14,16 +14,16 @@ order: 2
 * NAMR has a thriving [Discord community](https://discord.gg/{{ site.socials.discord }}). Join the fun today!
 
 ### How much does Atlas cost?
-* Atlas is free software. {% if site.paypal.donations == true %} (We do accept [donations](https://www.paypal.com/ncp/payment/{{ site.paypal.link }}) though.) {% endif %}
+* Atlas is free for personal and non-commercial use! {% if site.paypal.donations == true %} (We do accept [donations](https://www.paypal.com/ncp/payment/{{ site.paypal.link }}) though.) {% endif %}
 
 ### What does Atlas run on?
-* Atlas is a Java based, multiplatform application, currently being developed for Microsoft Windows, Apple Mac OS X and various flavors of Linux including SteamOS, Arch and Debian. 
-
-### When will Atlas be available?
-* Atlas is currently in a [open Beta]({{ '/2024/12/27/open-beta.html' | absolute_url }}). Rigorous testing accompanied with thorough pre-release documentation needs to be completed before we can publish a general release.
+* Atlas is a Java based, multiplatform application, for Microsoft Windows, Apple Mac OS X and various flavors of Linux including SteamOS, Arch and Debian. 
 
 ### Does Atlas support the VA WRX or STI? (2015-2021)
 * Yes! Although Atlas originally began as a tool intended to support the VB (2022+) chassis WRX, it’s scope has recently expanded and development is currently in progress for the FA20 powered VA chassis (2015-2021) WRX. More information can be found on our [support page]({{ '/support.html' | absolute_url }}). 
+
+### Is Atlas open source?
+* Atlas is free for personal use, but it is not open source. To meet increasingly stringent emissions regulations, we unfortunately had to move from an open-source model to a free, closed-source model.
 
 ### What do I need to connect Atlas to my car?
 * Atlas fully supports the Tactrix OpenPort 2.0 and STN based adapters such as the OBDLink MX+ with a built-in application driver. With some restrictions, ELM327 based devices also support flashing and datalogging. More information and a detailed list of supported devices can be found on our [support page]({{ '/support.html' | absolute_url }}). 
