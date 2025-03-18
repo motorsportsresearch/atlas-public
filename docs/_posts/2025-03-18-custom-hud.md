@@ -3,11 +3,11 @@ layout: post
 title: "Isaacs Design Gauge Display"
 ---
 
-We're always thrilled to see the creative ways our community utilizes the Atlas tuning platform. It's incredibly exciting to see our users pushing boundaries and creating innovative solutions that enhance their driving experience. Recently, we came across a particularly impressive project: a custom gauge panel designed by Isaacs Design for the VA chassis WRX, and we couldn't wait to share it!
+We're always thrilled to see the creative ways our community utilizes the Atlas tuning platform. It's incredibly exciting to see our users pushing boundaries and creating innovative solutions that enhance their driving experience. Recently, we came across a particularly impressive project: a custom gauge panel designed by [Isaacs Design](https://isaacs-design.com/) for the VA chassis WRX, and we couldn't wait to share it!
 
 ![HUD Prototype in VA WRX](https://motorsportsresearch.org/assets/posts/hud02.png?raw=true "HUD Prototype in VA WRX")
 
-[Isaacs Design](https://isaacs-design.com/) has created an [ingenious auxiliary display](https://isaacs-design.com/building-a-heads-up-display-for-the-subaru-wrx-cubby) that fits in the factory cubby below the infotainment unit. This creative design seamlessly integrates into the vehicle's interior, providing drivers with essential information without needing a standalone PC. The project highlights the power and flexibility of the Atlas platform, demonstrating how users can leverage its capabilities to create bespoke solutions tailored to their specific needs.
+Isaacs Design has created an [ingenious auxiliary display](https://isaacs-design.com/building-a-heads-up-display-for-the-subaru-wrx-cubby) that fits in the factory cubby below the infotainment unit. This creative design seamlessly integrates into the vehicle's interior, providing drivers with essential information without needing a standalone PC. The project highlights the power and flexibility of the Atlas platform, demonstrating how users can leverage its capabilities to create bespoke solutions tailored to their specific needs.
 
 ![HUD 3D Model](https://motorsportsresearch.org/assets/posts/hud01.jpg?raw=true "HUD 3D Model")
 
