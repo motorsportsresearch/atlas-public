@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Isaacs Design Gauge Display"
+image: /assets/posts/hud02.png
 ---
 
 We're always thrilled to see the creative ways our community utilizes the Atlas tuning platform. It's incredibly exciting to see our users pushing boundaries and creating innovative solutions that enhance their driving experience. Recently, we came across a particularly impressive project: a custom gauge panel designed by [Isaacs Design](https://isaacs-design.com/) for the VA chassis WRX, and we couldn't wait to share it!
