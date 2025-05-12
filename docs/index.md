@@ -4,13 +4,13 @@ title: North American Motorsports Research
 ref: home
 carousels:
   - images: 
-    - image: /assets/atlas.png
-    - image: /assets/atlas2.png
-    - image: /assets/atlas3.png
-    - image: /assets/atlas4.png
-    - image: /assets/atlas5.png
-    - image: /assets/atlas6.png
-    - image: /assets/atlas7.png
+    - image: /assets/atlas_new1.png
+    - image: /assets/atlas_new2.png
+    - image: /assets/atlas_new3.png
+    - image: /assets/atlas_new4.png
+    - image: /assets/atlas_new5.png
+    - image: /assets/atlas_new6.png
+    - image: /assets/atlas_new7.png
 ---
 
 ## Atlas Open Tuning Platform
