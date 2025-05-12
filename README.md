@@ -30,7 +30,7 @@ Join our Discord community!
 ### Advanced Visualization and Editing:
 * Enables comfortable night-time tuning with a carefully crafted dark mode interface
 * Provides modern, battery-efficient 2D and 3D visualizations for gauges, tables, and function charts
-* Offers a 2-3 dimension table editor with common arithmetic functions for efficient calibration editing
+* Offers a 2-3 dimension table editor with sophisticated, re-imagined interactions for fast and efficient map editing
 * Features a carefully tailored plotting and visualization system to quickly interpret valuable datalogs
 
 ### Comprehensive Documentation and Diagnostics:
