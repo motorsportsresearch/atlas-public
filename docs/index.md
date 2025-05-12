@@ -33,20 +33,22 @@ Atlas is a free and open ECU calibration suite designed for performance tuning m
     {% endfor %}
 </ul>
 
+
 ## Features
 ### Comprehensive Tuning Suite:
-* Enables in-depth ECU research and to full recalibration capabilities through an automatic ROM analysis and table match function
 * Supports multiple platforms, including Windows, Mac OS X (including M-series), and Linux (including SteamOS and Raspbian), leveraging Java and open-source libraries
-* Integrates the Ghidra SRE Framework bundle to analyze tables and emulate ROM machine code
+* Enables tuners to create new logic for the ECU with the Atlas custom feature designer, a visual logic node graph that instantly compiles new custom logic for your tune
 
 ### Versatile Connectivity:
 * Supports the Tactrix OpenPort 2.0, OBDLink wireless and wired adapters as well as various ELM327 adapters via direct serial/COM connection with a natively-written driver in Atlas
+* Protects your ECU with custom brick protection that far exceeds OEM recovery capabilities, making your tunes more dependable
+* Provides ultra-quick flashing with an entirely custom flash routine, sporting compression and advanced map delta checking
 
 ### Advanced Visualization and Editing:
-* Provides 2D and 3D OpenGL visualizations for gauges, tables, and function charts
-* Offers a 1-2 dimension table editor with common arithmetic functions for efficient calibration editing
-* Includes a live table definition interface to manage project tables and expedite table definition
-* Features a value scaling configuration UI to rapidly create new scaling operations as they are identified within ECU logic
+* Enables comfortable night-time tuning with a carefully crafted dark mode interface
+* Provides modern, battery-efficient 2D and 3D visualizations for gauges, tables, and function charts
+* Offers a 2-3 dimension table editor with sophisticated, re-imagined interactions for fast and efficient map editing
+* Features a carefully tailored plotting and visualization system to quickly interpret valuable datalogs
 
 ### Comprehensive Documentation and Diagnostics:
 * Allows customization of memory parameters to notate ECU RAM offsets corresponding to specific metrics (e.g., RPM, Requested Torque, etc.)
@@ -55,8 +57,11 @@ Atlas is a free and open ECU calibration suite designed for performance tuning m
 
 ### Streamlined Project Management:
 * Offers a composite project system that consolidates all calibrations and ECU configurations in a single file
-* Features an intelligent table-matching system to automatically detect new tables and discover existing tables in unknown variants
 * Enables a consistent experience across model years and variants with an intelligent calibration cross-application function
+* Supports our hobbyist community by enabling rapid import and export of Atlas custom features and tables ("Atlas Mods")
+
+### Engineered with Love:
+* Atlas is developed by a team of tuners, enthusiasts, and motorsports hobbyists like you that put our community first.
 
 ## Get Involved
 Atlas is in active development. If you're interested in getting involved in the effort to make ECU reverse engineering and recalibrating modern vehicles free and accessible, consider dropping by the Atlas [Discord server](https://discord.gg/{{ site.socials.discord }}){% if site.paypal.donations == true %} or donating today{% endif %}!
