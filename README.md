@@ -2,7 +2,7 @@
 
 Atlas is a free and open ECU calibration suite designed for performance tuning and reverse-engineering of modern vehicles. This project started as an effort to better understand the behavior of the 2022 WRX ECU but, as there is a lack of free and maintained tooling for software engineers and auto enthusiasts to gain first-party access to their ECUs, has since pivoted towards adopting a much broader feature set that encourages modern ECU research, recalibration and modification across increasingly diverse make and model lineups.
 
-![Atlas 2024.1](https://github.com/atlas-tuning/atlas-public/blob/main/java/screenshots/atlas2.png?raw=true "Atlas 2024.1 running on MacOS")
+![Atlas 2024.1](https://github.com/atlas-tuning/atlas-public/blob/main/java/screenshots/atlas_new1.png?raw=true "Atlas 2025.2 running on MacOS")
 
 ## Links
 ### [Homepage](https://motorsportsresearch.org)
