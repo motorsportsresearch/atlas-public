@@ -14,7 +14,7 @@ carousels:
 ---
 
 ## Atlas Open Tuning Platform
-Atlas is a revolutionary, free ECU calibration suite designed for high-end, professional performance tuning of modern vehicles currently supporting the VA (2015-2021) and VB (2022+) Subaru WRX. With Atlas, North American Motorsports Research is rasing the bar by providing cutting-edge features for the Subaru hobbyist and professional communities.
+Atlas is a revolutionary, free ECU calibration suite designed for high-end, professional performance tuning of modern vehicles currently supporting the VA (2015-2021) and VB (2022+) Subaru WRX.
 
 {% include carousel.html height="50" unit="%" duration="7" number="1" %}
 
