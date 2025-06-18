@@ -18,10 +18,10 @@ socials:
   discord: tbWJshQvqR
   youtube: NAMR-Atlas
 #  facebook:
-paypal: 
-  donations: false
-  embed: VW2BTAC4JBEJ2
-  link: VVVRJ3N3TZ79E
+square: 
+  donations: true
+  embed: kE9E7DmT
+  link: kE9E7DmT
 links:
   atlasdocs: https://docs.motorsportsresearch.org/books/atlas-documentation
 plugins:
