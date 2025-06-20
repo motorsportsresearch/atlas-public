@@ -13,7 +13,7 @@ If a vehicle is supported, it may not be complete. Please report any missing tab
 
 | Make   | Model<br>(Chassis) | Year      | Status |
 |--------|--------------------|-----------|--------|
-| Subaru | WRX (VB)     | 2024+      | ![In Progress](https://flat.badgen.net/badge/icon/In%20Progress?label&color=blue) |
+| Subaru | WRX (VB)     | 2024-2025      | ![Supported](https://flat.badgen.net/badge/icon/Supported?label&color=green) |
 | Subaru | WRX (VB)     | 2022-2023      | ![Supported](https://flat.badgen.net/badge/icon/Supported?label&color=green) |
 | Subaru | WRX (VA)     | 2015-2021 | ![Supported](https://flat.badgen.net/badge/icon/Supported?label&color=green) |
 | Subaru | WRX STi (VA) | 2015-2021 | ![In Progress](https://flat.badgen.net/badge/icon/In%20Progress?label&color=blue) |
