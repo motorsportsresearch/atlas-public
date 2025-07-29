@@ -13,11 +13,14 @@ order: 2
 ### Is Atlas Beta? How safe is it to use?
 * Atlas is **fully released** and is no longer in beta with hundreds or even thousands of successful reflashes completed across supported vehicles. Atlas actually sports a unique brick protection feature that helps to protect your ECU against the need to be removed from your vehicle for repair, setting Atlas apart as one of the safest tuning options. During your first flash, and before your tune is sent to the vehicle, this feature is installed to your ECU automatically.
 
+### I'm a professional tuner ("Protuner"), can I use Atlas?
+* Yes, but keep in mind Atlas is free for **personal, non-commercial** use. You can use Atlas to tune your own vehicle, but for a commercial license and tune locking/intellectual property protection, please contact us.
+
+### I'm an individual and I want to tune my car, can I use Atlas?
+* Atlas is available to our community for personal, non-commercial use. We want you to enjoy tuning your own car or help a friend tune theirs. {% if site.square.donations == true %} We do accept [donations](https://square.link/u/{{ site.square.link }}) though. {% endif %}
+
 ### How can I get involved?
 * NAMR has a thriving [Discord community](https://discord.gg/{{ site.socials.discord }}). Join the fun today!
-
-### How much does Atlas cost?
-* Atlas is free for personal and non-commercial use! {% if site.square.donations == true %} (We do accept [donations](https://square.link/u/{{ site.square.link }}) though.) {% endif %}
 
 ### What does Atlas run on?
 * Atlas is a Java based, multiplatform application, for Microsoft Windows, Apple Mac OS X and various flavors of Linux including SteamOS, Arch and Debian. 
