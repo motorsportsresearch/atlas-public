@@ -11,7 +11,8 @@ order: 2
 * Atlas can be [downloaded]({{ '/download.html' | absolute_url }}) from our website!
 
 ### Is Atlas Beta? How safe is it to use?
-* Atlas is **fully released** and is no longer in beta with hundreds or even thousands of successful reflashes completed across supported vehicles. Atlas actually sports a unique brick protection feature that helps to protect your ECU against the need to be removed from your vehicle for repair, setting Atlas apart as one of the safest tuning options. During your first flash, and before your tune is sent to the vehicle, this feature is installed to your ECU automatically.
+* Atlas is **fully released** and is no longer in beta with hundreds or even thousands of successful reflashes completed across supported vehicles.
+* Atlas sports a unique brick protection feature that helps to protect your ECU against the need to be removed from your vehicle for repair. During your first flash, and before your tune itself is sent to the vehicle, brick protection is automatically installed to your ECU.
 
 ### I'm a professional tuner ("Protuner"), can I use Atlas?
 * Yes, but keep in mind Atlas is free for **personal, non-commercial** use. You can use Atlas to tune your own vehicle, but for a commercial license and tune locking/intellectual property protection, please contact us.
