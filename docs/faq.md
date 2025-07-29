@@ -8,7 +8,10 @@ order: 2
 ---
 
 ### Where can I download Atlas?
-* Atlas is in open beta and can be [downloaded]({{ '/download.html' | absolute_url }}) from our website!
+* Atlas can be [downloaded]({{ '/download.html' | absolute_url }}) from our website!
+
+### Is Atlas Beta? How safe is it to use?
+* Atlas is **fully released** and is no longer in beta with hundreds or even thousands of successful reflashes completed across supported vehicles. Atlas actually sports a unique brick protection feature that helps to protect your ECU against the need to be removed from your vehicle for repair, setting Atlas apart as one of the safest tuning options. During your first flash, and before your tune is sent to the vehicle, this feature is installed to your ECU automatically.
 
 ### How can I get involved?
 * NAMR has a thriving [Discord community](https://discord.gg/{{ site.socials.discord }}). Join the fun today!
