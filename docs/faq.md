@@ -30,8 +30,11 @@ order: 2
 ### What does Atlas run on?
 * Atlas is a Java based, multiplatform application, for Microsoft Windows, Apple Mac OS X and various flavors of Linux including SteamOS, Arch and Debian. 
 
-### Does Atlas support the VA WRX or STI? (2015-2021)
-* Yes! Although Atlas originally began as a tool intended to support the VB (2022+) chassis WRX, it’s scope has recently expanded and development is currently in progress for the FA20 powered VA chassis (2015-2021) WRX. More information can be found on our [support page]({{ '/support.html' | absolute_url }}). 
+### Does Atlas support the VA WRX? (2015-2021)
+* Yes! Although Atlas originally began as a tool intended to support the VB (2022+) chassis WRX, it’s scope expanded for the FA20 powered VA chassis (2015-2021) WRX. More information can be found on our [support page]({{ '/support.html' | absolute_url }}).
+
+### Does Atlas support the WRX STi or other EJ powered platforms?
+* No, not at this time. More information can be found on our [support page]({{ '/support.html' | absolute_url }}).
 
 ### Is Atlas open source?
 * Atlas is free for personal use, but it is not open source. To meet increasingly stringent emissions regulations, we unfortunately had to move from an open-source model to a free, closed-source model.
