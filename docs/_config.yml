@@ -32,7 +32,7 @@ target-blank:
     rel: nofollow
     noopener: true
     noreferrer: true
-header_page_refs: ['download', 'docs', 'support', 'faq', 'emissions', 'news', 'discord']
+header_page_refs: ['shop', 'download', 'docs', 'support', 'faq', 'emissions', 'news', 'discord']
 defaults:
   - scope:
       path: ""
