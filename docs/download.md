@@ -15,7 +15,7 @@ Released <time datetime="{{ release.published_at | date_to_xmlschema }}">{{ rele
 ### Downloads
 {% for asset in release.assets %}{% if asset.name == "Atlas_Windows_x64.exe" %}<a href="{{ asset.browser_download_url }}" class="btn">Windows (x64)</a>{% endif %}{% if asset.name == "Atlas_MacOS.dmg" %}<a href="{{ asset.browser_download_url }}" class="btn">MacOS</a>{% endif %}{% if asset.name == "Atlas_MacOS.pkg" %}<a href="{{ asset.browser_download_url }}" class="btn">MacOS</a>{% endif %}{% if asset.name == "Atlas_Linux_amd64.AppImage" %}<a href="{{ asset.browser_download_url }}" class="btn">Linux (amd64)</a>{% endif %}{% if asset.name == "Atlas_Linux_arm64.tar.gz" %}<a href="{{ asset.browser_download_url }}" class="btn">Linux (arm64)</a>{% endif %}{% if asset.name == "Atlas_Linux_armv6hf.tar.gz" %}<a href="{{ asset.browser_download_url }}" class="btn">Linux (armv6hf)</a>{% endif %}{% if asset.name == "Atlas_Linux.AppImage" %}<a href="{{ asset.browser_download_url }}" class="btn">Linux (amd64)</a>{% endif %}{% endfor %}
 ### Definitions
-{% for asset in release.assets %}{% if asset.name == "Definitions-VA_WRX_MT.atlas" %}<a href="{{ asset.browser_download_url }}" class="btn">USDM VA WRX</a>{% endif %}{% if asset.name == "Definitions-VB_WRX_MT.atlas" %}<a href="{{ asset.browser_download_url }}" class="btn">USDM VB WRX</a>{% endif %}{% endfor %}
+{% for asset in release.assets %}{% if asset.name == "Definitions-VA_WRX_MT.atlas" %}<a href="{{ asset.browser_download_url }}" class="btn">VA WRX MT</a>{% endif %}{% if asset.name == "Definitions-VB_WRX_MT.atlas" %}<a href="{{ asset.browser_download_url }}" class="btn">VB WRX MT</a>{% endif %}{% endfor %}
 ### Release Notes
 {{ release.body }}
 
