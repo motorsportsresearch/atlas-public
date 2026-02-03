@@ -9,6 +9,6 @@ Our first release of 2026, aiming to elevate Atlas into an even more powerful pr
 
 Starting with our next release, we are excited to bring forward new accomplishments from an expanded vision for Atlas. We collaborated with professionals across the industry to uncover new ECU tables/parameters, integrated Atlas with powerful & affordable hardware products, and refined the Atlas ecosystem to unlock your vehicle's maximum potential. We can't wait to unveil the full details on release as soon as final testing is complete!
 
-To our Patrons and donators and on behalf of all of NAMR, an enormous **thank-you** is in order - you help us keep the lights on on this beloved project. And to our community and beta testers, thank you for your continued support and advocacy of the platform!
+To our Patrons and donators and on behalf of all of NAMR, an enormous **thank-you** is in order - you help us keep the lights on and fund our R&D for this beloved project. And to our community and beta testers, thank you for your continued support and advocacy of the platform!
 
 Stay tuned for Atlas 2026.1!
