@@ -9,15 +9,15 @@ order: 1
 
 ## Supported Vehicles and Platforms
 
-For up-to-date information on supported vehicles and platforms, see our documentation: [Supported Vehicles & Platforms]([https://github.com/motorsportsresearch/atlas-public/issues/new?labels=bug&template=bug_report.md](https://motorsportsresearch.atlassian.net/wiki/spaces/ATLAS/pages/49643521/Supported+Vehicles+Platforms))
+For up-to-date information on supported vehicles and platforms, see our documentation: [Supported Vehicles & Platforms](https://motorsportsresearch.atlassian.net/wiki/spaces/ATLAS/pages/49643521/Supported+Vehicles+Platforms)
 
 ## Supported Adapters and OBDII Devices
 
-For up-to-date information on supported connection adapters (such as OBDII devices), see our documentation: [Supported OBDII Devices]([https://motorsportsresearch.atlassian.net/wiki/spaces/ATLAS/pages/49610753/Supported+OBDII+Devices])
+For up-to-date information on supported connection adapters (such as OBDII devices), see our documentation: [Supported OBDII Devices](https://motorsportsresearch.atlassian.net/wiki/spaces/ATLAS/pages/49610753/Supported+OBDII+Devices)
 
 ## Supported Mods & Hardware
 
-To find if your vehicle's mods or hardware are supported with Atlas, see our documentation: [Supported Mods & Hardware]([https://motorsportsresearch.atlassian.net/wiki/spaces/ATLAS/pages/49741825/Supported+Mods+Hardware])
+To find if your vehicle's mods or hardware are supported with Atlas, see our documentation: [Supported Mods & Hardware](https://motorsportsresearch.atlassian.net/wiki/spaces/ATLAS/pages/49741825/Supported+Mods+Hardware)
 
 ## Issues/Troubleshooting
 
