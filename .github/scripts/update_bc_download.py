@@ -37,31 +37,56 @@ else:
 date_obj = datetime.strptime(published_at, "%Y-%m-%dT%H:%M:%SZ")
 formatted_date = date_obj.strftime("%d %B %Y")
 
-# Generate download links
-downloads_html = "Downloads\n\n"
+
+# Generate download links from release artifacts 
+downloads_html = "<h3>Downloads</h3>\n<p>\n"
 for asset in assets:
     name = asset.get('name', '')
     url = asset.get('browser_download_url', '')
-    downloads_html += f"  {name}\n"
-downloads_html += "\n"
+    downloads_html += f"  <a href='{url}' class='btn'>{name}</a>\n"
+downloads_html += "</p>\n"
 
 # Convert the release body to HTML
 notes_html = markdown.markdown(body)
 
-# Construct the final HTML layout
+# Construct the final HTML layout 
 final_html = f"""
+<style>
+    .namr-download-container .btn {{
+        display: inline-block;
+        margin-bottom: 1rem;
+        color: rgba(255, 255, 255, 0.7);
+        background-color: rgba(255, 255, 255, 0.08);
+        border-color: rgba(255, 255, 255, 0.2);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 0.3rem;
+        transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+        padding: 0.75rem 1rem;
+        text-decoration: none;
+        margin-right: 0.5rem;
+    }}
+    
+    .namr-download-container .btn:hover {{
+        color: rgba(255, 255, 255, 0.8);
+        text-decoration: none;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-color: rgba(255, 255, 255, 0.3);
+    }}
+</style>
 
-    Atlas {tag_name}
-    Released {formatted_date}
+<div class="namr-download-container">
+    <h2>Atlas {tag_name}</h2>
+    <p>Released {formatted_date}</p>
     
     {downloads_html}
     
     {notes_html}
     
-    
-    Previous Versions
-    Looking for older versions and releases? View all releases on GitHub.
-
+    <hr>
+    <h3>Previous Versions</h3>
+    <p>Looking for older versions and releases? <a href="https://github.com/motorsportsresearch/atlas-public/releases">View all releases on GitHub</a>.</p>
+</div>
 """
 
 # Push to BigCommerce API
