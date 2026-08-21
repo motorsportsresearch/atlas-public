@@ -32,10 +32,34 @@ def_labels = {
     "Definitions-USDM_VB_MT.atlas": "USDM VB WRX"
 }
 
-# Inject the button CSS
+# Inject the button CSS and Notice
 html_output = """
-
-
+<style>
+    .namr-download-container .btn {
+        display: inline-block;
+        margin-bottom: 1rem;
+        color: rgba(255, 255, 255, 0.7);
+        background-color: rgba(255, 255, 255, 0.08);
+        border-color: rgba(255, 255, 255, 0.2);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 0.3rem;
+        transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+        padding: 0.75rem 1rem;
+        text-decoration: none;
+        margin-right: 0.5rem;
+    }
+    .namr-download-container .btn:hover {
+        color: rgba(255, 255, 255, 0.8);
+        text-decoration: none;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-color: rgba(255, 255, 255, 0.3);
+    }
+</style>
+<div class="namr-download-container">
+    <h2>Notice</h2>
+    <p>The software available on this page is provided for archival and troubleshooting purposes only. Users are strongly encouraged to use the latest version of the software whenever possible to ensure optimal performance and security.</p>
+    <hr>
 """
 
 for release in releases:
@@ -49,8 +73,8 @@ for release in releases:
     date_obj = datetime.strptime(published_at, "%Y-%m-%dT%H:%M:%SZ")
     formatted_date = date_obj.strftime("%d %B %Y")
 
-    html_output += f"Atlas {tag_name}{prerelease}\n"
-    html_output += f"Released {formatted_date}\n"
+    html_output += f"<h2>Atlas {tag_name}{prerelease}</h2>\n"
+    html_output += f"<p>Released {formatted_date}</p>\n"
 
     apps_html = ""
     defs_html = ""
@@ -60,24 +84,24 @@ for release in releases:
         url = asset.get('browser_download_url', '')
 
         if name in app_labels:
-            apps_html += f"  {app_labels[name]}\n"
+            apps_html += f"  <a href='{url}' class='btn'>{app_labels[name]}</a>\n"
         elif name in def_labels:
-            defs_html += f"  {def_labels[name]}\n"
+            defs_html += f"  <a href='{url}' class='btn'>{def_labels[name]}</a>\n"
 
     if apps_html:
-        html_output += "Downloads\n\n" + apps_html + "\n"
+        html_output += "<h3>Downloads</h3>\n<p>\n" + apps_html + "</p>\n"
         
     if defs_html:
-        html_output += "Definitions\n\n" + defs_html + "\n"
+        html_output += "<h3>Definitions</h3>\n<p>\n" + defs_html + "</p>\n"
 
-    notes_html = markdown.markdown(release.get('body', ''))
-    html_output += f"Release Notes\n{notes_html}\n\n"
+    notes_html = markdown.markdown(
+        release.get('body', ''), 
+        extensions=['extra', 'nl2br', 'sane_lists']
+    )
 
-html_output += """
-Notice
-The software available on this page is provided for archival and troubleshooting purposes only. Users are strongly encouraged to use the latest version of the software whenever possible to ensure optimal performance and security.
+    html_output += f"<h3>Release Notes</h3>\n{notes_html}\n<hr>\n"
 
-"""
+html_output += "</div>"
 
 # Push to BigCommerce
 api_url = f"https://api.bigcommerce.com/stores/{bc_hash}/v3/content/pages/{bc_page_id}"
