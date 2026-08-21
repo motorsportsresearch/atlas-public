@@ -7,7 +7,7 @@ theme: jekyll-theme-cayman
 github:
   is_project_page: false
 
-url: "https://motorsportsresearch.org" 
+url: "https://old.motorsportsresearch.org" 
 # cayman-blog date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 cayman-blog:
