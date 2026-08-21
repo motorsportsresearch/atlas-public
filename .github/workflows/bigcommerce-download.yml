@@ -25,6 +25,38 @@ jobs:
           BC_STORE_HASH: ${{ secrets.BC_STORE_HASH }}
           BC_ACCESS_TOKEN: ${{ secrets.BC_ACCESS_TOKEN }}
           BC_PAGE_ID: ${{ secrets.BC_PAGE_ID }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          RELEASE_TAG: ${{ github.event.release.tag_name }}
+          RELEASE_DATE: ${{ github.event.release.published_at }}
+          RELEASE_BODY: ${{ github.event.release.body }}
+          RELEASE_ASSETS: ${{ toJson(github.event.release.assets) }}
+        run: python .github/scripts/update_bc_download.pyname: Update BigCommerce Download Page
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+jobs:
+  update-page:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          
+      - name: Install dependencies
+        run: pip install markdown requests
+
+      - name: Run update script
+        env:
+          BC_STORE_HASH: ${{ secrets.BC_STORE_HASH }}
+          BC_ACCESS_TOKEN: ${{ secrets.BC_ACCESS_TOKEN }}
+          BC_PAGE_ID: ${{ secrets.BC_PAGE_ID }}
           RELEASE_TAG: ${{ github.event.release.tag_name }}
           RELEASE_DATE: ${{ github.event.release.published_at }}
           RELEASE_BODY: ${{ github.event.release.body }}
