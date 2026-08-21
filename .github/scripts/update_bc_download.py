@@ -72,6 +72,6 @@ headers = {
     "Accept": "application/json"
 }
 
-response = requests.put(api_url, json={"html_body": final_html}, headers=headers)
+response = requests.put(api_url, json={"body": final_html}, headers=headers)
 response.raise_for_status()
 print(f"Successfully updated BigCommerce page {bc_page_id} with Atlas {tag_name}")
