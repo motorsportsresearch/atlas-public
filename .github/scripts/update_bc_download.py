@@ -1,4 +1,5 @@
 import os
+import sys
 import json
 import markdown
 import requests
@@ -8,13 +9,31 @@ from datetime import datetime
 tag_name = os.getenv('RELEASE_TAG')
 published_at = os.getenv('RELEASE_DATE')
 body = os.getenv('RELEASE_BODY', '')
-assets = json.loads(os.getenv('RELEASE_ASSETS', '[]'))
+assets_raw = os.getenv('RELEASE_ASSETS')
 
 bc_hash = os.getenv('BC_STORE_HASH')
 bc_token = os.getenv('BC_ACCESS_TOKEN')
 bc_page_id = os.getenv('BC_PAGE_ID')
 
-# Format release date
+# If triggered manually, event data is empty. Fetch latest release from API.
+if not tag_name:
+    print("Manual trigger detected. Fetching the latest release...")
+    repo = os.getenv('GITHUB_REPOSITORY', 'motorsportsresearch/atlas-public')
+    
+    # Call GitHub REST API for the latest release
+    gh_response = requests.get(f"https://api.github.com/repos/{repo}/releases/latest")
+    gh_response.raise_for_status()
+    release_data = gh_response.json()
+    
+    tag_name = release_data.get('tag_name')
+    published_at = release_data.get('published_at')
+    body = release_data.get('body', '')
+    assets = release_data.get('assets', [])
+else:
+    # Triggered by a new release event, parse the assets JSON
+    assets = json.loads(assets_raw if assets_raw and assets_raw != 'null' else '[]')
+
+# Format the release date
 date_obj = datetime.strptime(published_at, "%Y-%m-%dT%H:%M:%SZ")
 formatted_date = date_obj.strftime("%d %B %Y")
 
