@@ -37,13 +37,29 @@ else:
 date_obj = datetime.strptime(published_at, "%Y-%m-%dT%H:%M:%SZ")
 formatted_date = date_obj.strftime("%d %B %Y")
 
+# Map asset filenames
+asset_labels = {
+    "Atlas_Windows_x64.exe": "Windows (x64)",
+    "Atlas_MacOS.dmg": "MacOS",
+    "Atlas_MacOS.pkg": "MacOS",
+    "Atlas_Linux_amd64.AppImage": "Linux (amd64)",
+    "Atlas_Linux_arm64.tar.gz": "Linux (arm64)",
+    "Atlas_Linux_armv6hf.tar.gz": "Linux (armv6hf)",
+    "Atlas_Linux.AppImage": "Linux (amd64)"
+}
 
-# Generate download links from release artifacts 
+# Generate download links for mapped artifacts
 downloads_html = "<h3>Downloads</h3>\n<p>\n"
 for asset in assets:
     name = asset.get('name', '')
     url = asset.get('browser_download_url', '')
-    downloads_html += f"  <a href='{url}' class='btn'>{name}</a>\n"
+    
+    # Create a button only if the file is in dictionary
+    # automatically skip unmapped files and definitions
+    if name in asset_labels:
+        friendly_label = asset_labels[name]
+        downloads_html += f"  <a href='{url}' class='btn'>{friendly_label}</a>\n"
+        
 downloads_html += "</p>\n"
 
 # Convert the release body to HTML
