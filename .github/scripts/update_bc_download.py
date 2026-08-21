@@ -13,7 +13,7 @@ assets_raw = os.getenv('RELEASE_ASSETS')
 
 bc_hash = os.getenv('BC_STORE_HASH')
 bc_token = os.getenv('BC_ACCESS_TOKEN')
-bc_page_id = os.getenv('BC_PAGE_ID')
+bc_downloads_page_id = os.getenv('BC_DOWNLOADS_PAGE_ID')
 
 # If triggered manually, event data is empty. Fetch latest release from API.
 if not tag_name:
@@ -106,7 +106,7 @@ final_html = f"""
 """
 
 # Push to BigCommerce API
-api_url = f"https://api.bigcommerce.com/stores/{bc_hash}/v3/content/pages/{bc_page_id}"
+api_url = f"https://api.bigcommerce.com/stores/{bc_hash}/v3/content/pages/{bc_downloads_page_id}"
 headers = {
     "X-Auth-Token": bc_token,
     "Content-Type": "application/json",
@@ -115,4 +115,4 @@ headers = {
 
 response = requests.put(api_url, json={"body": final_html}, headers=headers)
 response.raise_for_status()
-print(f"Successfully updated BigCommerce page {bc_page_id} with Atlas {tag_name}")
+print(f"Successfully updated BigCommerce page {bc_downloads_page_id} with Atlas {tag_name}")
