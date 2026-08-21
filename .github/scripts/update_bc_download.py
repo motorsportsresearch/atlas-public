@@ -100,8 +100,8 @@ final_html = f"""
     {notes_html}
     
     <hr>
-    <h3>Previous Versions</h3>
-    <p>Looking for older versions and releases? <a href="https://github.com/motorsportsresearch/atlas-public/releases">View all releases on GitHub</a>.</p>
+    <h2><a href="https://motorsportsresearch.org/releases">Previous Versions</a></h2>
+    <p>Looking for <a href="https://motorsportsresearch.org/releases">older versions and releases?</a>.</p>
 </div>
 """
 
