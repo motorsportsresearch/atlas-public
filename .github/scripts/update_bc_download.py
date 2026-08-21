@@ -101,7 +101,7 @@ final_html = f"""
     
     <hr>
     <h2><a href="https://motorsportsresearch.org/releases">Previous Versions</a></h2>
-    <p>Looking for <a href="https://motorsportsresearch.org/releases">older versions and releases?</a>.</p>
+    <p>Looking for <a href="https://motorsportsresearch.org/releases">older versions and releases?</a></p>
 </div>
 """
 
