@@ -42,6 +42,8 @@ asset_labels = {
     "Atlas_Windows_x64.exe": "Windows (x64)",
     "Atlas_MacOS.dmg": "MacOS",
     "Atlas_MacOS.pkg": "MacOS",
+    "Atlas_MacOS_arm64.dmg": "MacOS (arm64)",
+    "Atlas_MacOS_x64.dmg": "MacOS (x64)",
     "Atlas_Linux_amd64.AppImage": "Linux (amd64)",
     "Atlas_Linux_arm64.tar.gz": "Linux (arm64)",
     "Atlas_Linux_armv6hf.tar.gz": "Linux (armv6hf)",
